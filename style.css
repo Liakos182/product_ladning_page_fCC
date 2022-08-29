@@ -1,0 +1,48 @@
+html{
+    display: flex;
+    flex-direction: column;
+}
+/*styling the header */
+header{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    background-color: antiquewhite;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+#header-img{
+    width: 30%;
+    height: 30%;
+}
+#form{
+    margin-top: 100px;
+    ;
+}
+.nav-link{
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 15px;
+    font-size: 15px;
+    color: black;
+}
+.nav-link:hover{
+    color: blue;
+    background-color: aquamarine;
+}
+
+/*styling the header */
+/*styling for the form portion */
+.form-container{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+#form{
+    margin-top: -5px;
+}
